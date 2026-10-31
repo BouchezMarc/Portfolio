@@ -222,7 +222,19 @@ h2 { margin: 14px 0 0; font-size: clamp(29px, 3.6vw, 43px); letter-spacing: -1.9
   border: 1px solid #31565b;
   border-radius: 10px;
 }
+/* Diplômes et formations : turquoise */
+.profile-entry-icon--education {
+  color: var(--cyan);
+  background: #142426;
+  border: 1px solid #31565b;
+}
 
+/* Expériences professionnelles : violet */
+.profile-entry-icon--experience {
+  color: var(--violet);
+  background: rgba(167, 139, 250, 0.10);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+}
 .profile-intro-icon {
   width: 54px;
   height: 54px;
@@ -329,4 +341,80 @@ h2 { margin: 14px 0 0; font-size: clamp(29px, 3.6vw, 43px); letter-spacing: -1.9
     flex-direction: column;
     gap: 5px;
   }
+}
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 5%;
+  background: rgba(10, 14, 24, 0.90);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Logo à gauche */
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.brand-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cyan);
+}
+
+/* Liens au centre */
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--cyan);
+}
+
+/* GitHub à droite */
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: var(--text);
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover {
+  color: var(--cyan);
+}
+html {
+  scroll-padding-top: 85px;
+}
+main {
+  padding-top: 85px;
 }

@@ -130,34 +130,40 @@ function App() {
 
   return (
     <main>
-      <header className="topbar">
-        <a className="brand" href="#accueil">
-          <span className="brand-icon">
-            <BrainCircuit size={23} />
-          </span>
-          <span>
-            portfolio<span className="accent">.tech</span>
-          </span>
-        </a>
+      <header >
+        <nav className="main-nav">
+          {/* Gauche : identité du portfolio */}
+          <a href="#accueil" className="nav-brand">
+            <span className="brand-icon">
+              <BrainCircuit size={23} />
+            </span>
+            <span>
+              portfolio<span className="accent">.tech</span>
+            </span>
+          </a>
+          {/* Centre : navigation */}
+          <div className="nav-links">
+            <a href="#accueil">Accueil</a>
+            <a href="#profil">Profil</a>
+            <a href="#projets">Projets</a>
+            <a href="#competences">Compétences</a>
+            <a href="#graphe">Graphe</a>
+            <a href="#contact">Contact</a>
+          </div>
 
-        <nav>
-          <a href="#profil">Profil</a>
-          <a href="#projets">Projets</a>
-          <a href="#competences">Compétences</a>
-          <a href="#graphe">Graphe</a>
-          <a href="#contact">Contact</a>
+          {/* Droite : GitHub */}
+          <a
+            className="github-link"
+            href="https://github.com/BouchezMarc/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Code2 size={17} />
+            GitHub
+            <ArrowUpRight size={15} />
+          </a>
         </nav>
-
-        <a
-          className="github-link"
-          href="https://github.com/BouchezMarc/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Code2 size={17} /> GitHub <ArrowUpRight size={15} />
-        </a>
       </header>
-
       <section className="hero section" id="accueil">
         <div className="hero-content">
           <div className="eyebrow">
@@ -174,6 +180,7 @@ function App() {
             Un espace dédié à mes projets, mes expérimentations et aux
             technologies qui façonnent les systèmes intelligents de demain.
           </p>
+          <h1>Marc Bouchez</h1>
           <div className="hero-actions">
             <a className="button primary" href="mailto:marcbouchez@hotmail.fr">
               marcbouchez@hotmail.fr <ArrowUpRight size={17} />
@@ -228,7 +235,7 @@ function App() {
         <div className="scroll-note">
           <span /> DÉFILER POUR EXPLORER
         </div>
-        <h1>Marc Bouchez</h1>
+        
       </section>      
       <section className="section profile-section" id="profil">
         <div className="section-heading">
@@ -280,17 +287,17 @@ function App() {
 
         <div className="profile-timeline">
           <article className="profile-entry">
-            <div className="profile-entry-icon"><GraduationCap size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">04/2025 — 04/2026</span>
               <h3>Formation AI Engineer</h3>
-              <span className="profile-entry-type">Formation</span>
               <p>Spécialisation en intelligence artificielle et ingénierie des systèmes IA.</p>
+              <span className="profile-entry-type">Niveau Bac +5</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">03/2024 — 11/2025</span>
               <h3>Ingénieur interopérabilité</h3>
@@ -300,7 +307,7 @@ function App() {
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">03/2022 — 02/2024</span>
               <h3>Technicien interopérabilité</h3>
@@ -309,43 +316,43 @@ function App() {
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
-              <span className="profile-date">09/2020 — 08/2021</span>
+              <span className="profile-date">09/2020 — 09/2021</span>
               <h3>Concepteur développeur</h3>
               <span className="profile-entry-type">Expérience professionnelle</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><GraduationCap size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">02/2020 — 09/2020</span>
               <h3>Formation concepteur développeur</h3>
-              <span className="profile-entry-type">Niveau Bac+3 / Bac+4</span>
+              <span className="profile-entry-type">Niveau Bac +4</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
-              <span className="profile-date">2013 — 2020</span>
+              <span className="profile-date">2013 — 2019</span>
               <h3>Intérim — Industrie, automatisme et informatique industrielle</h3>
               <span className="profile-entry-type">Expériences professionnelles</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><GraduationCap size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">2012</span>
               <h3>Formation développeur logiciel</h3>
-              <span className="profile-entry-type">Niveau Bac+2</span>
+              <span className="profile-entry-type">Niveau Bac +2</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">2011</span>
               <h3>Intérim — Maintenance industrielle</h3>
@@ -354,15 +361,16 @@ function App() {
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><GraduationCap size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">2010</span>
               <h3>Formation technicien supérieur en automatisme et informatique industrielle</h3>
+              <span className="profile-entry-type">Niveau Bac +2</span>
             </div>
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">2004 — 2009</span>
               <h3>SAV — Magasin informatique</h3>
@@ -371,7 +379,7 @@ function App() {
           </article>
 
           <article className="profile-entry">
-            <div className="profile-entry-icon"><BriefcaseBusiness size={18} /></div>
+            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
             <div className="profile-entry-content">
               <span className="profile-date">2001 — 2003</span>
               <h3>SAV — Magasin de jeux vidéo</h3>
@@ -650,7 +658,7 @@ function App() {
       </section>
 
       <section className="contact-section section" id="contact">
-        <div className="eyebrow">04 / ET ENSUITE ?</div>
+        <div className="eyebrow">05 / ET ENSUITE ?</div>
         <h2>
           Une idée mérite
           <br />
@@ -660,14 +668,20 @@ function App() {
           Ce portfolio évoluera avec les projets, les apprentissages et les
           nouvelles connexions techniques.
         </p>
-        <a
-          className="button primary"
-          href="https://github.com/BouchezMarc/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Retrouver mes projets <ArrowUpRight size={17} />
-        </a>
+        <h2>Contact :</h2>
+          <div className="hero-actions">
+            <a className="button primary" href="mailto:marcbouchez@hotmail.fr">
+              marcbouchez@hotmail.fr <ArrowUpRight size={17} />
+            </a>            
+            <a            
+              className="button secondary"
+              href="https://github.com/BouchezMarc/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <ArrowUpRight size={17} />
+            </a>
+          </div>
       </section>
 
       <footer className="footer">
