@@ -4,7 +4,6 @@ import {
   ArrowUpRight,
   GitBranch,
   Workflow,
-  ShieldCheck,
   TestTube2,
   Container,
   Server,
@@ -12,7 +11,6 @@ import {
   BrainCircuit,
   CheckCircle2,
   Package,
-  RefreshCw,
   Code2,
 } from "lucide-react";
 import "./MLAttrition.css";

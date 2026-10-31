@@ -2,9 +2,7 @@
 import {
   ArrowLeft,
   ArrowUpRight,
-  BrainCircuit,
   Database,
-  GitBranch,
   Search,
   BookOpen,
   Video,

@@ -7,7 +7,6 @@ import {
   Database,
   MapPin,
   Target,
-  Workflow,
   AlertTriangle,
   CheckCircle2,
 } from "lucide-react";

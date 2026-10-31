@@ -8,9 +8,7 @@ import {
   MessageSquare,
   Network,
   BarChart3,
-  Code,
   Server,
-  Workflow,
   Gauge,
 } from "lucide-react";
 import { Link } from "react-router-dom";

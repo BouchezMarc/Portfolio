@@ -8,7 +8,6 @@ import {
   Microscope,
   ScanSearch,
   ShieldAlert,
-  Workflow,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import "./IRMSSL.css";

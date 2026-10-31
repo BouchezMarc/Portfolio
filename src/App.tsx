@@ -2,8 +2,7 @@
 import { projects } from "./data/projects";
 import { skills } from "./data/skills";
 import { useMemo, useState } from "react";
-import {
-  ArrowDownRight,
+import { 
   ArrowUpRight,
   BrainCircuit,
   Code2,
