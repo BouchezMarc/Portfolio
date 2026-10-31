@@ -1,0 +1,398 @@
+.credit-risk-page {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 60px 0 90px;
+  color: #e7eaf2;
+}
+
+.credit-risk-hero {
+  padding: 48px;
+  background: linear-gradient(135deg, #151c2c, #10131d 65%);
+  border: 1px solid #30364a;
+  border-radius: 20px;
+}
+
+.credit-risk-kicker {
+  color: #64e6df;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.credit-risk-hero h1 {
+  max-width: 850px;
+  margin: 18px 0;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.12;
+}
+
+.credit-risk-subtitle {
+  max-width: 780px;
+  color: #b6bdd0;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.credit-risk-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 26px;
+}
+
+.credit-risk-tags span,
+.credit-risk-metric-tags span {
+  padding: 7px 12px;
+  color: #c6cbda;
+  background: #202638;
+  border: 1px solid #343c53;
+  border-radius: 20px;
+  font-size: 0.82rem;
+}
+
+.credit-risk-objective {
+  margin-top: 28px;
+  padding: 28px 32px;
+  background: #10131d;
+  border: 1px solid #30364a;
+  border-radius: 16px;
+}
+
+.credit-risk-objective h2,
+.credit-risk-conclusion h2 {
+  margin: 0 0 14px;
+}
+
+.credit-risk-objective p,
+.credit-risk-section > p,
+.credit-risk-conclusion p {
+  color: #aeb5c8;
+  line-height: 1.85;
+}
+
+.credit-risk-objective p {
+  margin: 0 0 12px;
+}
+
+.credit-risk-scope {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 26px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid #30364a;
+  color: #c6cbda;
+  font-size: 0.9rem;
+}
+
+.credit-risk-section {
+  margin-top: 64px;
+}
+
+.credit-risk-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.credit-risk-heading > span {
+  color: #64e6df;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.credit-risk-heading h2 {
+  margin: 0;
+  font-size: 1.65rem;
+}
+
+.credit-risk-page code {
+  color: #64e6df;
+  font-size: 0.9em;
+}
+
+.credit-risk-data-flow,
+.credit-risk-process,
+.credit-risk-models,
+.credit-risk-mlflow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.credit-risk-data-flow article,
+.credit-risk-process article,
+.credit-risk-models article,
+.credit-risk-mlflow article,
+.credit-risk-limits article {
+  padding: 22px;
+  background: #10131d;
+  border: 1px solid #30364a;
+  border-radius: 14px;
+}
+
+.credit-risk-data-flow h3,
+.credit-risk-process h3,
+.credit-risk-models h3,
+.credit-risk-mlflow h3,
+.credit-risk-limits h3 {
+  margin: 10px 0;
+  font-size: 1.05rem;
+}
+
+.credit-risk-data-flow p,
+.credit-risk-process p,
+.credit-risk-models p,
+.credit-risk-mlflow p {
+  margin: 0;
+  color: #9399ad;
+  line-height: 1.75;
+}
+
+.credit-risk-process article > span {
+  color: #64e6df;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.credit-risk-info {
+  margin-top: 22px;
+  padding: 22px;
+  background: #171c2a;
+  border-left: 3px solid #64e6df;
+  border-radius: 8px;
+}
+
+.credit-risk-info h3 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+}
+
+.credit-risk-info p {
+  margin: 0;
+  color: #aeb5c8;
+  line-height: 1.8;
+}
+
+.credit-risk-metrics {
+  margin-top: 26px;
+  padding: 22px;
+  background: #10131d;
+  border: 1px solid #30364a;
+  border-radius: 14px;
+}
+
+.credit-risk-metrics h3 {
+  margin: 0 0 16px;
+  font-size: 1.05rem;
+}
+
+.credit-risk-metric-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.credit-risk-table-wrap {
+  overflow-x: auto;
+  margin-top: 26px;
+  border: 1px solid #30364a;
+  border-radius: 12px;
+}
+
+.credit-risk-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #10131d;
+  font-size: 0.88rem;
+}
+
+.credit-risk-table th,
+.credit-risk-table td {
+  padding: 15px 14px;
+  border-bottom: 1px solid #30364a;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.credit-risk-table th {
+  color: #64e6df;
+  background: #171c2a;
+  font-weight: 700;
+}
+
+.credit-risk-table td {
+  color: #c6cbda;
+}
+
+.credit-risk-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.credit-risk-caption {
+  margin-top: 14px;
+  color: #9399ad;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.credit-risk-shap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.credit-risk-shap-grid figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 16px;
+  background: #10131d;
+  border: 1px solid #30364a;
+  border-radius: 14px;
+  min-width: 0;
+}
+
+.credit-risk-shap-grid figure img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.credit-risk-shap-grid figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 4px 2px;
+}
+
+.credit-risk-shap-grid figcaption strong {
+  color: #e7eaf2;
+  font-size: 0.98rem;
+}
+
+.credit-risk-shap-grid figcaption span {
+  color: #9399ad;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.credit-risk-shap-grid .credit-risk-waterfall {
+  grid-column: 1 / -1;
+}
+
+.credit-risk-shap-grid .credit-risk-waterfall img {
+  height: 360px;
+}
+
+.credit-risk-limits {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.credit-risk-limits h3 {
+  margin-top: 0;
+}
+
+.credit-risk-limits ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #aeb5c8;
+  line-height: 1.9;
+}
+
+.credit-risk-conclusion {
+  margin-top: 70px;
+  padding: 32px;
+  background: #10131d;
+  border: 1px solid #30364a;
+  border-radius: 16px;
+}
+
+.credit-risk-conclusion p {
+  margin: 0;
+}
+
+.credit-risk-conclusion p + p {
+  margin-top: 12px;
+}
+
+.credit-risk-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #30364a;
+}
+
+.credit-risk-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #64e6df;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.credit-risk-footer a:hover {
+  color: #a78bfa;
+}
+
+@media (max-width: 760px) {
+  .credit-risk-page {
+    width: min(100% - 28px, 1100px);
+    padding-top: 30px;
+  }
+
+  .credit-risk-hero {
+    padding: 28px 22px;
+  }
+
+  .credit-risk-section {
+    margin-top: 46px;
+  }
+
+  .credit-risk-objective {
+    padding: 24px 22px;
+  }
+
+  .credit-risk-data-flow,
+  .credit-risk-process,
+  .credit-risk-models,
+  .credit-risk-mlflow,
+  .credit-risk-limits,
+  .credit-risk-shap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .credit-risk-shap-grid .credit-risk-waterfall {
+    grid-column: auto;
+  }
+
+  .credit-risk-shap-grid figure img,
+  .credit-risk-shap-grid .credit-risk-waterfall img {
+    height: auto;
+    max-height: 380px;
+  }
+
+  .credit-risk-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .credit-risk-conclusion {
+    padding: 24px;
+  }
+}

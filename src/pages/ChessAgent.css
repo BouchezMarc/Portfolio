@@ -1,0 +1,387 @@
+
+.chess-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 32px 50px;
+}
+
+.chess-hero {
+  padding: 55px 0 75px;
+  border-bottom: 1px solid var(--border);
+}
+
+.chess-eyebrow,
+.chess-section-heading span {
+  color: var(--cyan);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.chess-hero h1 {
+  max-width: 900px;
+  margin: 24px 0;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+.chess-hero h1 span {
+  color: var(--cyan);
+}
+
+.chess-intro {
+  max-width: 750px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.chess-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.chess-tags span,
+.chess-stage-tech {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--cyan);
+  font-size: 0.78rem;
+}
+
+.chess-section {
+  padding: 65px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.chess-section-heading {
+  margin-bottom: 30px;
+}
+
+.chess-section-heading h2 {
+  margin-top: 12px;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  letter-spacing: -0.035em;
+}
+
+.chess-section > p {
+  max-width: 850px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.chess-services-grid,
+.chess-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.chess-service-card,
+.chess-stack-grid article {
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.chess-service-card > svg,
+.chess-stack-grid svg,
+.chess-vector-card > svg {
+  color: var(--cyan);
+}
+
+.chess-service-card > span {
+  display: block;
+  margin-top: 17px;
+  color: var(--violet);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.chess-service-card h3,
+.chess-stack-grid h3 {
+  margin: 10px 0;
+}
+
+.chess-service-card p,
+.chess-stack-grid p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.chess-note {
+  margin-top: 22px;
+  padding: 18px 20px;
+  background: var(--panel);
+  border-left: 3px solid var(--cyan);
+  border-radius: 0 10px 10px 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.chess-architecture {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.chess-architecture-node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.chess-architecture-node svg,
+.chess-branch svg {
+  flex-shrink: 0;
+  color: var(--cyan);
+}
+
+.chess-architecture-node strong,
+.chess-architecture-node small {
+  display: block;
+}
+
+.chess-architecture-node small {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.chess-node-highlight {
+  border-color: #3b6470;
+}
+
+.chess-node-output {
+  border-color: var(--violet);
+}
+
+.chess-arrow {
+  padding: 10px;
+  color: var(--cyan);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.chess-branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.chess-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  padding: 20px;
+  background: var(--panel);
+  border: 1px solid #3b6470;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.chess-branch small {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.chess-storage {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+  padding: 17px 20px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.chess-storage svg {
+  color: var(--violet);
+}
+
+.chess-storage strong,
+.chess-storage small {
+  display: block;
+}
+
+.chess-storage small {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.chess-stages {
+  display: flex;
+  flex-direction: column;
+}
+
+.chess-stage {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.chess-stage-number {
+  color: var(--cyan);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.chess-stage h3 {
+  margin: 0 0 10px;
+}
+
+.chess-stage p {
+  max-width: 750px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.chess-stage-tech {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.chess-vector-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 25px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.chess-vector-card > svg {
+  flex-shrink: 0;
+}
+
+.chess-vector-card h3 {
+  margin: 0 0 12px;
+}
+
+.chess-vector-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.chess-vector-card code {
+  color: var(--cyan);
+}
+
+.chess-stack-grid article > svg {
+  margin-bottom: 12px;
+}
+
+.chess-outcomes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.chess-outcomes li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.chess-outcomes li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--cyan);
+}
+
+.chess-limitations {
+  margin-top: 30px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.chess-limitations h3 {
+  margin-top: 0;
+}
+
+.chess-limitations p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.chess-limitations p:last-child {
+  margin-bottom: 0;
+}
+
+.chess-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.chess-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--cyan);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.chess-footer a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  .chess-page {
+    padding: 40px 20px;
+  }
+
+  .chess-hero {
+    padding: 35px 0 50px;
+  }
+
+  .chess-section {
+    padding: 45px 0;
+  }
+
+  .chess-services-grid,
+  .chess-stack-grid,
+  .chess-outcomes {
+    grid-template-columns: 1fr;
+  }
+
+  .chess-stage {
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+  }
+
+  .chess-footer {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

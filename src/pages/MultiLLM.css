@@ -1,0 +1,384 @@
+
+.multillm-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 32px 50px;
+}
+
+.multillm-hero {
+  padding: 55px 0 75px;
+  border-bottom: 1px solid var(--border);
+}
+
+.multillm-eyebrow,
+.multillm-section-heading span {
+  color: var(--cyan);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.multillm-hero h1 {
+  max-width: 850px;
+  margin: 24px 0;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+.multillm-hero h1 span {
+  color: var(--cyan);
+}
+
+.multillm-intro {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.multillm-tags,
+.multillm-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.multillm-tags span,
+.multillm-stack span {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--cyan);
+  font-size: 0.78rem;
+}
+
+.multillm-section {
+  padding: 65px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.multillm-section-heading {
+  margin-bottom: 30px;
+}
+
+.multillm-section-heading h2 {
+  margin-top: 12px;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  letter-spacing: -0.035em;
+}
+
+.multillm-section > p {
+  max-width: 850px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.multillm-model-grid,
+.multillm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.multillm-model-card,
+.multillm-feature {
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.multillm-model-icon,
+.multillm-feature > svg {
+  color: var(--cyan);
+}
+
+.multillm-model-role {
+  display: block;
+  margin-top: 18px;
+  color: var(--violet);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.multillm-model-card h3 {
+  margin: 10px 0;
+  font-size: 1.05rem;
+}
+
+.multillm-model-card p,
+.multillm-feature p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.multillm-model-card code {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--cyan);
+  font-size: 0.8rem;
+}
+
+.multillm-note {
+  margin-top: 22px;
+  font-size: 0.85rem;
+}
+
+.multillm-architecture {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.multillm-architecture-node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.multillm-architecture-node svg {
+  flex-shrink: 0;
+  color: var(--cyan);
+}
+
+.multillm-architecture-node strong,
+.multillm-architecture-node small {
+  display: block;
+}
+
+.multillm-architecture-node small {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.multillm-node-highlight {
+  border-color: #3b6470;
+}
+
+.multillm-node-output {
+  border-color: var(--violet);
+}
+
+.multillm-arrow {
+  padding: 10px;
+  color: var(--cyan);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.multillm-model-branches {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.multillm-branch {
+  padding: 18px 10px;
+  background: var(--panel);
+  border: 1px solid #3b6470;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.multillm-branch strong,
+.multillm-branch small {
+  display: block;
+}
+
+.multillm-branch small {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.multillm-steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.multillm-steps article {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.multillm-steps article > span {
+  color: var(--cyan);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.multillm-steps h3,
+.multillm-feature h3 {
+  margin: 0 0 10px;
+}
+
+.multillm-steps p {
+  max-width: 750px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.multillm-feature h3 {
+  margin-top: 16px;
+  font-size: 1rem;
+}
+
+.multillm-api-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.multillm-api-list > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 17px 20px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+
+.multillm-api-list > div:last-child {
+  border-bottom: 0;
+}
+
+.multillm-api-list code {
+  color: var(--cyan);
+  white-space: nowrap;
+}
+
+.multillm-api-list span {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.multillm-outcomes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.multillm-outcomes li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.multillm-outcomes li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--cyan);
+}
+
+.multillm-limitations {
+  margin-top: 30px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.multillm-limitations h3 {
+  margin-top: 0;
+}
+
+.multillm-limitations p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.multillm-limitations p:last-child {
+  margin-bottom: 0;
+}
+
+.multillm-limitations code {
+  color: var(--cyan);
+}
+
+.multillm-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.multillm-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--cyan);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.multillm-footer a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  .multillm-page {
+    padding: 40px 20px;
+  }
+
+  .multillm-hero {
+    padding: 35px 0 50px;
+  }
+
+  .multillm-section {
+    padding: 45px 0;
+  }
+
+  .multillm-model-grid,
+  .multillm-feature-grid,
+  .multillm-outcomes {
+    grid-template-columns: 1fr;
+  }
+
+  .multillm-model-branches {
+    grid-template-columns: 1fr;
+  }
+
+  .multillm-steps article {
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+  }
+
+  .multillm-api-list > div {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .multillm-api-list span {
+    text-align: left;
+  }
+
+  .multillm-footer {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
