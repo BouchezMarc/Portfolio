@@ -15,6 +15,7 @@ import MLAttrition from "./pages/MLAttrition";
 import MLAttritionAnalysis from "./pages/MLAttritionAnalysis";
 import SeattleConsumption from "./pages/SeattleConsumption";
 import ClothesSegmentation from "./pages/ClothesSegmentation";
+import MultiPC from "./pages/MultiPC";
 
 import "./index.css";
 
@@ -37,6 +38,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/projets/ml-attrition-analysis" element={<MLAttritionAnalysis />} />
         <Route path="/projets/seattle-consumption" element={<SeattleConsumption />} />
         <Route path="/projets/clothes-segmentation" element={<ClothesSegmentation />} />
+        <Route path="/projets/multi-pc" element={<MultiPC />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

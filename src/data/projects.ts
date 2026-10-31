@@ -31,7 +31,7 @@ export const projects: Project[] = [
     ],
     pageUrl: "/projets/medical-ai",
     status: "Prototype",
-    githubUrl: "",
+    githubUrl: "https://github.com/BouchezMarc/PF14-Medical-AI",
   },
   {
     id: "news-pipeline",
@@ -284,5 +284,25 @@ export const projects: Project[] = [
   status: "Prototype",
   githubUrl: "https://github.com/BouchezMarc/PF02-segmentation",
   pageUrl: "/projets/clothes-segmentation",
+},
+{
+  id: "multi-pc",
+  title: "Environnement multi-PC et réseau local",
+  description:
+    "Mise en place d'un environnement multi-machines avec synchronisation décentralisée des fichiers via Syncthing, partage du clavier et de la souris avec Deskflow et configuration des règles de pare-feu pour sécuriser les communications.",
+  category: "Infrastructure & Réseaux",
+  technologies: [
+    "Syncthing",
+    "Deskflow",
+    "Windows",
+    "Linux Mint",
+    "macOS",
+    "Meraki Go",
+    "TCP/IP",
+    "Firewall",
+  ],
+  status: "Terminé",
+  githubUrl: "",
+  pageUrl: "/projets/multi-pc",
 },
 ];

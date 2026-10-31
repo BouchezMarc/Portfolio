@@ -228,15 +228,14 @@ function App() {
         <div className="scroll-note">
           <span /> DÉFILER POUR EXPLORER
         </div>
-      </section>
-
-
+        <h1>Marc Bouchez</h1>
+      </section>      
       <section className="section profile-section" id="profil">
         <div className="section-heading">
-          <div>
+          <div>            
             <div className="eyebrow">01 / PARCOURS</div>
             <h2>
-              Ingénieur <span className="gradient-text">AI Engineer | Interopérabilité & Data.</span>
+              Ingénieur <span className="gradient-text">Interopérabilité, IA & Data.</span>
             </h2>
           </div>
           <p>
@@ -253,14 +252,12 @@ function App() {
             <h3>Un parcours entre systèmes et intelligence artificielle</h3>
             <p>
               Mon parcours professionnel s'est construit à la croisée de
-              l'informatique industrielle, du développement logiciel et des
-              systèmes d'information de santé.
+              l'informatique industrielle, du développement logiciel.
             </p>
             <p>
-              Après plusieurs expériences dans le support informatique,
-              la maintenance industrielle et l'automatisme, je me suis
-              orienté vers le développement logiciel, puis vers
-              l'interopérabilité des systèmes d'information hospitaliers.
+              Je me suis ensuite spécialisé dans les systèmes d'information
+              hospitaliers et leur interopérabilité, développant des compétences
+              dans l'intégration de systèmes hétérogènes et les échanges de données.
             </p>
             <p>
               Cette expérience m'a permis de développer une expertise dans
@@ -268,16 +265,10 @@ function App() {
               hétérogènes.
             </p>
             <p>
-              Aujourd'hui, je prolonge cette expertise par l'intelligence
-              artificielle et l'AI Engineering : Machine Learning,
-              fine-tuning de modèles de langage, architectures multi-LLM
-              et conception d'applications intégrant l'IA.
-            </p>
-            <p>
-              Mon objectif est de combiner interopérabilité, ingénierie
-              logicielle et intelligence artificielle pour concevoir des
-              solutions capables de s'intégrer dans des environnements
-              techniques complexes.
+              Cette expérience constitue aujourd'hui le socle de mon évolution
+              vers l'AI Engineering. J'ai élargi mes compétences au Machine Learning,
+              au fine-tuning de LLM, aux architectures multi-LLM et au développement
+              d'applications intégrant l'intelligence artificielle.
             </p>
           </div>
         </div>
@@ -671,7 +662,7 @@ function App() {
         </p>
         <a
           className="button primary"
-          href="https://github.com/"
+          href="https://github.com/BouchezMarc/"
           target="_blank"
           rel="noreferrer"
         >
