@@ -286,43 +286,64 @@ function App() {
         </div>
 
         <div className="profile-timeline">
-          <article className="profile-entry">
-            <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
-            <div className="profile-entry-content">
-              <span className="profile-date">04/2025 — 04/2026</span>
-              <h3>Formation AI Engineer</h3>
-              <p>Spécialisation en intelligence artificielle et ingénierie des systèmes IA.</p>
-              <span className="profile-entry-type">Niveau Bac +5</span>
-            </div>
-          </article>
+            <article className="profile-entry">
+              <div className="profile-entry-icon profile-entry-icon--education">
+                <GraduationCap size={18} />
+              </div>
+              <div className="profile-entry-content">
+                <span className="profile-date">04/2025 — 04/2026</span>
+                <h3>Formation AI Engineer</h3>
+                <p>Spécialisation en intelligence artificielle et ingénierie des systèmes IA.</p>
+                <span className="profile-entry-type">Niveau Bac +5</span>
+              </div>
+            </article>
 
-          <article className="profile-entry">
-            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
-            <div className="profile-entry-content">
-              <span className="profile-date">03/2024 — 11/2025</span>
-              <h3>Ingénieur interopérabilité</h3>
-              <span className="profile-entry-type">Centre Hospitalier de Cambrai</span>
-              <p>Interopérabilité et échanges de données entre systèmes d'information hospitaliers.</p>
-            </div>
-          </article>
+            <article className="profile-entry">
+              <div className="profile-entry-icon profile-entry-icon--experience">
+                <BriefcaseBusiness size={18} />
+              </div>
+              <div className="profile-entry-content">
+                <span className="profile-date">03/2024 — 11/2025</span>
+                <h3>Ingénieur interopérabilité</h3>              
+                <span className="profile-entry-type">GHT du Cambrésis</span>
+                <p>
+                  Gestion et supervision des flux, développement d'outils en Node.js,
+                  conception d'architecture, gestion de projets et création d'un entrepôt
+                  de données de santé.
+                </p>
+              </div>
+            </article>
 
-          <article className="profile-entry">
-            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
-            <div className="profile-entry-content">
-              <span className="profile-date">03/2022 — 02/2024</span>
-              <h3>Technicien interopérabilité</h3>
-              <span className="profile-entry-type">Centre Hospitalier de Valenciennes</span>
-            </div>
-          </article>
+            <article className="profile-entry">
+              <div className="profile-entry-icon profile-entry-icon--experience">
+                <BriefcaseBusiness size={18} />
+              </div>
+              <div className="profile-entry-content">
+                <span className="profile-date">03/2022 — 02/2024</span>
+                <h3>Technicien interopérabilité</h3>
+                <span className="profile-entry-type">Centre Hospitalier de Valenciennes</span>
+                <p>
+                  Gestion et supervision des flux, sécurisation des échanges,
+                  remise aux normes et automatisation par scripts PowerShell et VBScript.
+                </p>
+              </div>
+            </article>
 
-          <article className="profile-entry">
-            <div className="profile-entry-icon profile-entry-icon--experience"><BriefcaseBusiness size={18} /></div>
-            <div className="profile-entry-content">
-              <span className="profile-date">09/2020 — 09/2021</span>
-              <h3>Concepteur développeur</h3>
-              <span className="profile-entry-type">Expérience professionnelle</span>
-            </div>
-          </article>
+            <article className="profile-entry">
+              <div className="profile-entry-icon profile-entry-icon--experience">
+                <BriefcaseBusiness size={18} />
+              </div>
+              <div className="profile-entry-content">
+                <span className="profile-date">09/2020 — 09/2021</span>
+                <h3>Concepteur développeur</h3>
+                <span className="profile-entry-type">Expérience professionnelle</span>
+                <p>
+                  Développement d'outils de supervision, gestion de bases de données
+                  et solutions industrielles avec Ignition, IoT et MQTT.
+                </p>
+              </div>
+            </article>
+
 
           <article className="profile-entry">
             <div className="profile-entry-icon profile-entry-icon--education"><GraduationCap size={18} /></div>
@@ -338,6 +359,10 @@ function App() {
             <div className="profile-entry-content">
               <span className="profile-date">2013 — 2019</span>
               <h3>Intérim — Industrie, automatisme et informatique industrielle</h3>
+                <p>
+                  Supervision industrielle, monitoring, communication Profibus et Modbus TCP,
+                  bases de données SQL et développement en C, C++, C#, VBScript, VB6 et .NET.
+                </p>
               <span className="profile-entry-type">Expériences professionnelles</span>
             </div>
           </article>
