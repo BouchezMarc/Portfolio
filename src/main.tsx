@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.tsx";
-import MedicalAi from "./pages/MedicalAi";
+import MedicalAi from "./pages/MedicalAI";
 import DataEngineering from "./pages/DataEngineering";
 import MultiLLM from "./pages/MultiLLM";
 import ChessAgent from "./pages/ChessAgent";
