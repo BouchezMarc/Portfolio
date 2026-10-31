@@ -395,7 +395,7 @@ function App() {
       <section className="section projects-section" id="projets">
         <div className="section-heading">
           <div>
-            <div className="eyebrow">01 / RÉALISATIONS</div>
+            <div className="eyebrow">02 / RÉALISATIONS</div>
             <h2>
               Projets <span className="gradient-text">sélectionnés.</span>
             </h2>
@@ -480,7 +480,7 @@ function App() {
       <section className="section skills-section" id="competences">
         <div className="section-heading">
           <div>
-            <div className="eyebrow">02 / BOÎTE À OUTILS</div>
+            <div className="eyebrow">03 / BOÎTE À OUTILS</div>
             <h2>
               Un écosystème <span className="gradient-text">technique.</span>
             </h2>
@@ -539,7 +539,7 @@ function App() {
       <section className="section graph-section" id="graphe">
         <div className="section-heading">
           <div>
-            <div className="eyebrow">03 / CARTOGRAPHIE</div>
+            <div className="eyebrow">04 / CARTOGRAPHIE</div>
             <h2>
               Les connexions <span className="gradient-text">techniques.</span>
             </h2>
