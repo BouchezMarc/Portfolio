@@ -10,8 +10,7 @@ import {
   ShieldCheck,
   Workflow,
 } from "lucide-react";
-import "./MedicalAi.css";
-import "./MedicalAi.css";
+import "./MedicalAI.css";
 
 import sftTrainLoss from "../pics/PF14_sft_train_loss.png";
 import sftEvalLoss from "../pics/PF14_sft_eval_loss.png";
